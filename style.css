@@ -1,0 +1,44 @@
+/* ==========================================================================
+   Next Level Gaming & Esports Arena — stylesheet
+   STATUS: foundation only. Full component styling (cards, forms, nav,
+   responsive breakpoints) is planned for the next development stage, per
+   the project's phased approach (HTML structure now, CSS/JS styling next).
+   ========================================================================== */
+
+/* Basic reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Brand palette — from the group's colour/logo direction:
+   black (atmosphere), blue/cyan (technology), green (energy), white (readability) */
+:root {
+  --color-black: #0a0a0a;
+  --color-card: #1c1c1c;
+  --color-cyan: #29bff5;
+  --color-green: #8be223;
+  --color-white: #ffffff;
+  --color-gray: #9e9ea3;
+  --color-border: #3a3a3a;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: var(--color-black);
+  color: var(--color-white);
+  line-height: 1.6;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+a {
+  color: var(--color-cyan);
+}
+
+/* TODO (next stage): header/nav layout, hero section, card grid,
+   form styling, footer, responsive breakpoints, table styling. */
